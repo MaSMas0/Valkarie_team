@@ -5,7 +5,6 @@ Official website for Valkyrie Racing: a student-led motorsport engineering/STEM 
 - Stack: Next.js (App Router) + TypeScript + Tailwind CSS + Framer Motion
 - Output: static export (`next.config.ts` sets `output: "export"`)
 - Hosting: Firebase Hosting (`firebase.json` serves `out/`)
-- Live site: https://www.valkyrieracing.com
 
 ## Local development
 
@@ -24,11 +23,6 @@ npm run build
 
 The static site is generated into `out/`.
 
-## Deploy (Firebase Hosting)
-
-```bash
-firebase deploy --only hosting
-```
 
 ## Repo description (GitHub “About”)
 
